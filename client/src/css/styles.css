@@ -1,0 +1,142 @@
+body {
+    background-color: #f8f8ff;
+    color: #333;
+}
+
+.signInBtn {
+    padding: 5px 15px;
+    border-radius: 3em;
+    background-color: lightgreen;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.header-content {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #f8f8ff;
+    padding: 20px 10px;
+    white-space: nowrap;
+    overflow: ellipsis;
+    border-radius: 3em;
+    /* box-shadow: 8px 8px 10px rgba(110, 110, 110, 0.2), -8px -8px 10px rgba(110, 110, 110, 0.2), 8px -8px 10px rgba(110, 110, 110, 0.2), -8px 8px 10px rgba(110, 110, 110, 0.2); */
+}
+
+#profileImg {
+    border-radius: 50%;
+    width: 150px;
+    margin: 0px 40px;
+}
+
+.display-name {
+    margin-bottom: 0px;
+}
+
+.user-info {
+    margin-left: 20px;
+}
+
+.options {
+    margin-bottom: 40px;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.optionsBtns {
+    padding: 10px;
+    border-radius: 3em;
+    border: 0px !important;
+    background-color: #f8f8ff;
+    transition: all 0.5s ease;
+}
+
+.searchBtn {
+    margin-right: 10px;
+}
+
+.playlistBtn {
+    margin-left: 10px;
+}
+
+.playlist-content {
+    border-radius: 3em;
+}
+
+.playlists {
+    padding: 0px 0px 20px 0px;
+    overflow-y: scroll;
+}
+
+.playlists::-webkit-scrollbar {
+    display: none;
+}
+
+.playlist-header {
+    margin: 0px 15px 5px 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.playlist {
+    padding: 5px 15px 5px 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: 3em 0 0 3em;
+    transition: all 0.3s ease;
+}
+
+.playlist:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: #7575FF;
+    color: #f8f8ff;
+}
+
+.songList {
+    background-color: #7575FF;
+    color: #f8f8ff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.input {
+    border-radius: 0;
+}
+
+.select {
+    border-radius: 0;
+}
+
+.search-info {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color:darkgrey
+}
+
+input {
+    padding-left: 15px !important;
+}
+
+.artistProfile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+.spotify-player {
+    position: fixed;
+    right: 15px;
+    top: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    border-radius: 1em;
+    z-index: 10;
+}
