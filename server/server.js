@@ -6,8 +6,8 @@ const app = express();
 const port = process.env.PORT || 5001;
 
 let spot = {
-    client_id: '882ada13468046fe9083901eee8d6f15',
-    client_secret: 'de65ff5269734e82bc7cbb7faff961d3',
+    client_id: 'spotfy_client_id',
+    client_secret: 'spotify_client_secret',
     redirect_uri: 'http://localhost:5001/api/callback',
     access_token: null,
     refresh_token: null,
